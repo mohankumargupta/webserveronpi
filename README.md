@@ -1,0 +1,1 @@
+Installs wordpress on Raspberry Pi

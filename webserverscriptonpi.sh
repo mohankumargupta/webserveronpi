@@ -31,7 +31,7 @@ cd wordpresstemp
 wget -c http://wordpress.org/latest.tar.gz
 tar xzf latest.tar.gz
 
-if [ -d $WORDPRESSDIR]; then
+if [ ! -d $WORDPRESSDIR]; then
   mkdir -p $WORDPRESSDIR
 fi
 sudo mv -f wordpress/* $WORDPRESSDIR
